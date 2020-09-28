@@ -1,4 +1,5 @@
 ./vids
+./docker_files/detectron2/build
 ./JSON
 ./model_final_cafdb1.pkl
 ./112019_4_.mp4
