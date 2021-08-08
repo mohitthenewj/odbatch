@@ -41,6 +41,7 @@ def setup_cfg(args):
     cfg.merge_from_file(args.config_file)
 
     # cfg.MODEL.WEIGHTS = '/app/model_final_nate.pkl'
+    # https://dl.fbaipublicfiles.com/detectron2/COCO-PanopticSegmentation/panoptic_fpn_R_101_3x/139514519/model_final_cafdb1.pkl
     cfg.MODEL.WEIGHTS = '/data1/code_base/mnt_data/ODbatch/model_final_cafdb1.pkl'
 
     # Set score_threshold for builtin models
