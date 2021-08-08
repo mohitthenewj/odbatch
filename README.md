@@ -1,4 +1,5 @@
-# odbatch
+# OD for batch video processing(alternatively flask application can be used for the similar results.)
+
 * This repo contains all required utils for running object detection during batch process.
 * Set up of detectron 2 will be exactly similar to detectron2 installation for flask application(https://github.com/mohitthenewj/flaskappdetectron2/blob/master/Dockerfile)
 * Download model weights for panoptic segmentation for OD(https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md)
